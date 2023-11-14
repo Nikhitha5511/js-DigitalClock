@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://img.freepik.com/premium-photo/lake-green-mountain-with-nice-sky-blue-water-lake-into-mountains-hills-green-jungle_510654-332.jpg?size=626&ext=jpg&ga=GA1.1.113712472.1694168333&semt=sph");
+    font-family: 'Arial', sans-serif;
+    background-position: center center;
+	background-repeat: no-repeat;             
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.clock-container{
+    display:flex;
+    justify-content:space-between;
+}
+h1{
+  margin-top:-250px;
+}
+.flex-conatiner{
+    display:flex;
+    margin-right: 40px;
+    align-items: center;
+    color:black;
+    font-weight: bold;
+    font-size: 26px;
+}
+.one{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width:68px;
+   height:68px;
+   background-color: rgb(11, 94, 23);
+   color:black;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+   border:1px solid rgb(11, 94, 23);
+   border-radius:6px;
+}
+@keyframes example {
+    from{
+     color:black;
+     transform:scale(0.7);
+    }
+    to{
+     color:rgb(11, 94, 23);
+     transform:scale(1.1);
+ 
+    }
+    
+ }
+  h1{
+     animation-name:example;
+     animation-duration:3s;
+     animation-iteration-count:infinite;
+     animation-timing-function: ease-in-out;
+  } 
+
+  @keyframes example2{
+    from{transform:translateX(0);}
+    to{transform:translateX(23px);}
+  }
+  .text{
+    animation-name:example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
+.ampm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    background-color: rgb(11, 94, 23);
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border:1px solid rgb(11, 94, 23);
+    border-radius:6px;
+    margin-top:10px;
+}
+
+.creation-flex {
+  display: flex;
+  margin-top:30px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.creation-flex h2{
+  color:rgb(11, 58, 18);
+  font-size: 28px;
+  font-size: bold;
+}
+.greetings-container {
+  margin-right:100px;
+
+}
+
+.countdown-container {
+  margin-left: auto;
+}
+.fact-container{
+  color:black;
+  font-weight: bold;
+  font-size: 26px;
+}
